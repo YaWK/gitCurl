@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class gitCurl</title>
+
+	<link rel="stylesheet" href="resources/style.css?c2f33731c1948fbed7c333554678bfa68d4817da">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+		</div>
+
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-gitCurl.html">gitCurl</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class gitCurl</h1>
+
+
+	<div class="description">
+	<h1>GitCurl Documentation</h1>
+
+<h2>GitHub API Helper for PHP 5.3+</h2>
+
+<p><b>A PHP class that makes it easy to help you
+embed commits, issues and milestones on your website.</b></p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		
+
+				<b>Copyright:</b>
+				2018<br>
+				<b>License:</b>
+				<a href="https://opensource.org/licenses/MIT">https://opensource.org/licenses/MIT</a><br>
+				<b>Author:</b>
+				Daniel Retzl<br>
+				<b>Link:</b>
+				<a href="http://gitcurl.yawk.io/">http://gitcurl.yawk.io/</a><br>
+			<b>Located at</b> <a href="source-class-gitCurl.html#2-481" title="Go to source code">gitCurl.class.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="isInstalled" id="_isInstalled">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isInstalled">#</a>
+		<code><a href="source-class-gitCurl.html#43-57" title="Go to source code">isInstalled</a>( )</code>
+
+		<div class="description short">
+			<p>Check if cURL is installed and call init method. If cURL is not installed, abort with error message.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Check if cURL is installed and call init method. If cURL is not installed, abort with error message.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setRepository" id="_setRepository">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setRepository">#</a>
+		<code><a href="source-class-gitCurl.html#59-72" title="Go to source code">setRepository</a>( <span>string <var>$apiURL</var></span> )</code>
+
+		<div class="description short">
+			<p>Set a user defined repository. Expects a correct API URL.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set a user defined repository. Expects a correct API URL.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$apiURL</var></dt>
+					<dd>the API URL string</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="initCurl" id="_initCurl">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_initCurl">#</a>
+		<code><a href="source-class-gitCurl.html#75-94" title="Go to source code">initCurl</a>( <span>string <var>$apiURL</var></span> )</code>
+
+		<div class="description short">
+			<p>Init curl get curl handle for this repository. Expects a correct API URL.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Init curl get curl handle for this repository. Expects a correct API URL.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$apiURL</var></dt>
+					<dd>the API URL string</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean<br>return true if curl_init was successful.
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setOpts" id="_setOpts">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setOpts">#</a>
+		<code><a href="source-class-gitCurl.html#96-131" title="Go to source code">setOpts</a>( )</code>
+
+		<div class="description short">
+			<p>Set Curl Options</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set Curl Options</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="exeCurl" id="_exeCurl">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_exeCurl">#</a>
+		<code><a href="source-class-gitCurl.html#134-158" title="Go to source code">exeCurl</a>( )</code>
+
+		<div class="description short">
+			<p>Execute cURL handle</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Execute cURL handle</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="closeCurl" id="_closeCurl">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_closeCurl">#</a>
+		<code><a href="source-class-gitCurl.html#161-167" title="Go to source code">closeCurl</a>( )</code>
+
+		<div class="description short">
+			<p>Close this cURL handle</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Close this cURL handle</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="json2Array" id="_json2Array">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_json2Array">#</a>
+		<code><a href="source-class-gitCurl.html#170-176" title="Go to source code">json2Array</a>( )</code>
+
+		<div class="description short">
+			<p>Convert jSON string into multi-dimensional array</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Convert jSON string into multi-dimensional array</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="output" id="_output">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_output">#</a>
+		<code><a href="source-class-gitCurl.html#179-193" title="Go to source code">output</a>( )</code>
+
+		<div class="description short">
+			<p>Basic output of data array</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Basic output of data array</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getData" id="_getData">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getData">#</a>
+		<code><a href="source-class-gitCurl.html#196-220" title="Go to source code">getData</a>( <span>string <var>$apiURL</var></span> )</code>
+
+		<div class="description short">
+			<p>Get Data from GitHub. This method set the repository, execute curl and return data as array.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get Data from GitHub. This method set the repository, execute curl and return data as array.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$apiURL</var></dt>
+					<dd>the API URL string</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array<br>return data array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="daysAgo" id="_daysAgo">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_daysAgo">#</a>
+		<code><a href="source-class-gitCurl.html#223-253" title="Go to source code">daysAgo</a>( <span>string <var>$itemDate</var></span> )</code>
+
+		<div class="description short">
+			<p>Calculate difference between two dates. Expect itemDate as string. Return how many days ago as string.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Calculate difference between two dates. Expect itemDate as string. Return how many days ago as string.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$itemDate</var></dt>
+					<dd>the item date as string</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string<br>return how many days have been gone.
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replaceIssueWithLink" id="_replaceIssueWithLink">
+
+		<td class="attributes"><code>
+			 public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replaceIssueWithLink">#</a>
+		<code><a href="source-class-gitCurl.html#256-299" title="Go to source code">replaceIssueWithLink</a>( <span>string <var>$commitMessage</var></span> )</code>
+
+		<div class="description short">
+			<p>If a commit contains a string like 'issue #123', the hashtag will be converted to a link which leads to this issue on GitHub.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>If a commit contains a string like 'issue #123', the hashtag will be converted to a link which leads to this issue on GitHub.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$commitMessage</var></dt>
+					<dd>The commit message as string</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed<br>return false, if no commit msg was set or commit message containing link, or just the commit message if no #int was found.
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="drawCommits" id="_drawCommits">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_drawCommits">#</a>
+		<code><a href="source-class-gitCurl.html#301-340" title="Go to source code">drawCommits</a>( <span>array <var>$data</var></span> )</code>
+
+		<div class="description short">
+			<p>Draw commits with bootstrap card style</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Draw commits with bootstrap card style</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd>Array</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array<br>return data array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getLabels" id="_getLabels">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getLabels">#</a>
+		<code><a href="source-class-gitCurl.html#342-352" title="Go to source code">getLabels</a>( <span>array <var>$data</var></span> )</code>
+
+		<div class="description short">
+			<p>Draw labels that are used in this element. Expects data array</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Draw labels that are used in this element. Expects data array</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd>Array containing the data</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getIconFor" id="_getIconFor">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getIconFor">#</a>
+		<code><a href="source-class-gitCurl.html#354-378" title="Go to source code">getIconFor</a>( <span>string <var>$state</var></span> )</code>
+
+		<div class="description short">
+			<p>Check open/closed state and draw appropriate icon.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Check open/closed state and draw appropriate icon.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$state</var></dt>
+					<dd>Status of this element (open or closed)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string<br>html code (icon)
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="drawIssues" id="_drawIssues">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_drawIssues">#</a>
+		<code><a href="source-class-gitCurl.html#380-452" title="Go to source code">drawIssues</a>( <span>array <var>$data</var></span> )</code>
+
+		<div class="description short">
+			<p>Draw Issues with bootstrap card style. Expects data array</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Draw Issues with bootstrap card style. Expects data array</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd>Array containing the data</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="printData" id="_printData">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_printData">#</a>
+		<code><a href="source-class-gitCurl.html#454-480" title="Go to source code">printData</a>( <span>array <var>$data</var></span> )</code>
+
+		<div class="description short">
+			<p>Basic output of data array (for testing purpose)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Basic output of data array (for testing purpose)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd>Array containing the data</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="username" id="$username">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-gitCurl.html#16-17" title="Go to source code"><var>$username</var></a>
+
+			<div class="description short">
+				<p>GitHub username</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>GitHub username</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$username" class="anchor">#</a>
+				<code><span class="php-quote">'username'</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="password" id="$password">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-gitCurl.html#18-19" title="Go to source code"><var>$password</var></a>
+
+			<div class="description short">
+				<p>GitHub password</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>GitHub password</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$password" class="anchor">#</a>
+				<code><span class="php-quote">'password'</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="userAgent" id="$userAgent">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-gitCurl.html#20-21" title="Go to source code"><var>$userAgent</var></a>
+
+			<div class="description short">
+				<p>User Agent String</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>User Agent String</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$userAgent" class="anchor">#</a>
+				<code><span class="php-quote">''</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="projectName" id="$projectName">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-gitCurl.html#22-23" title="Go to source code"><var>$projectName</var></a>
+
+			<div class="description short">
+				<p>Project name that will be displayed in heading</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Project name that will be displayed in heading</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$projectName" class="anchor">#</a>
+				<code><span class="php-quote">&quot;yawk.io&quot;</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="projectUrl" id="$projectUrl">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-gitCurl.html#24-25" title="Go to source code"><var>$projectUrl</var></a>
+
+			<div class="description short">
+				<p>GitHub project URL</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>GitHub project URL</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$projectUrl" class="anchor">#</a>
+				<code><span class="php-quote">&quot;https://github.com/YaWK/yawk.io/&quot;</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="masterZip" id="$masterZip">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-gitCurl.html#26-27" title="Go to source code"><var>$masterZip</var></a>
+
+			<div class="description short">
+				<p>Link to the master zip file on GitHub</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Link to the master zip file on GitHub</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$masterZip" class="anchor">#</a>
+				<code><span class="php-quote">&quot;https://github.com/YaWK/yawk.io/archive/master.zip&quot;</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="apiURL" id="$apiURL">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-gitCurl.html#28-29" title="Go to source code"><var>$apiURL</var></a>
+
+			<div class="description short">
+				<p>GitHub API Link (your request)</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>GitHub API Link (your request)</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$apiURL" class="anchor">#</a>
+				<code><span class="php-quote">'https://api.github.com/repos/YaWK/yawk.io/milestones?state=open'</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="state" id="$state">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-gitCurl.html#30-31" title="Go to source code"><var>$state</var></a>
+
+			<div class="description short">
+				<p>Which state should be loaded on default</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Which state should be loaded on default</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$state" class="anchor">#</a>
+				<code><span class="php-quote">'closed'</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="authentication" id="$authentication">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-gitCurl.html#32-33" title="Go to source code"><var>$authentication</var></a>
+
+			<div class="description short">
+				<p>True, if repository needs authentication</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>True, if repository needs authentication</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$authentication" class="anchor">#</a>
+				<code><span class="php-keyword1">true</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="custom" id="$custom">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-gitCurl.html#34-35" title="Go to source code"><var>$custom</var></a>
+
+			<div class="description short">
+				<p>True, if user loads a custom repository</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>True, if user loads a custom repository</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$custom" class="anchor">#</a>
+				<code><span class="php-keyword1">false</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="curl" id="$curl">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-gitCurl.html#36-37" title="Go to source code"><var>$curl</var></a>
+
+			<div class="description short">
+				<p>Holds the cURL handle</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Holds the cURL handle</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$curl" class="anchor">#</a>
+				<code><span class="php-quote">''</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="result" id="$result">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-gitCurl.html#38-39" title="Go to source code"><var>$result</var></a>
+
+			<div class="description short">
+				<p>API result as json string</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>API result as json string</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$result" class="anchor">#</a>
+				<code><span class="php-quote">''</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="data" id="$data">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-gitCurl.html#40-41" title="Go to source code"><var>$data</var></a>
+
+			<div class="description short">
+				<p>API result as array</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>API result as array</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$data" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>
